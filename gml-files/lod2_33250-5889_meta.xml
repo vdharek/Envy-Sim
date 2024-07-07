@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata lang="de"><auftrag><targetProduct short="LOD2">
+        3D-Gebäudemodell in LoD2
+      </targetProduct><targetSrs code="25833">
+        ETRS_1989_UTM_33N
+      </targetSrs><layers><layer short="geb" product="LOD2">
+        Gebäude
+      </layer></layers><EXPORT_JOB version="1.0.0">
+    <job>
+        <initiator>43</initiator>
+        <jobnumber>od_data_ereignis_lod2-gml</jobnumber>
+        <account>ms</account>
+    </job>
+    <product>LOD2</product>
+    <layers color="0" mono="0" plotLabelSrs="25833" plotframe="0" single="1">
+        <layer name="geb" product="LOD2" style="#ffffff"/>
+    </layers>
+    <srs>25833</srs>
+<extent>
+<unit exterior="0" frame="0" product="LOD2">33250-5889</unit>
+</extent>
+    <resolution>100.0</resolution>
+    <scale>10000.0</scale>
+    <format alphalinscale="0.0" alphascale="1.0" citygml_actfunc="undef" citygml_apptheme="" citygml_elemclasses="true" citygml_lodmode="all" citygml_lods="012" citygml_metadata="true" citygml_outmode="AdV" citygml_outversion="2_0_0" dtm="false" foredit="false" inf="false" lodtr="true" materialcopymode="none" mcs="true" mcs_angtol="3.0" mcs_bndclsr_srftype="Closure" mcs_dsttol="0.01" mcs_lodmode="all" mcs_miniarea="0.5" mcs_smptobnd="false" mcs_split="false" mcs_tritol="0.005" polyopts_reverse="false" relcoords="false" rooftxr="false" roundcoords="3" schemetxr="false" solar="false" solargeoplex="false" solidcorr="false" tex="false" tolod1="false" topocorr="false" txr_quality="100" volcalc="false" xyz="false">CityGML</format>
+    <exportmetadata calibration="0" enabled="1" stereocoverage="0" xmetadata="0"/>
+    <addfile col="0" eck="0"/>
+    <usenodatamask>0</usenodatamask>
+    <usepdctborderpoly>0</usepdctborderpoly>
+    <usepdctborderpoly4tile>0</usepdctborderpoly4tile>
+    <dhkresolvereferences>1</dhkresolvereferences>
+    <zipresult>0</zipresult>
+    <userdescription/>
+    <usersubtitle/>
+    <postCommand>ZipTifLodGml</postCommand>
+    <namingpattern>lod2_[gaz]_[lay]</namingpattern>
+    <namingpatternfeatdataset/>
+    <namingpatternfeatclass/>
+    <dataDir>//od-share.lgb.local/opendata/od/geobasis/daten/3d_gebaeude/lod2_gml</dataDir>
+</EXPORT_JOB></auftrag><einheiten><extent nr="0"><numberOfFeatures>
+        4
+      </numberOfFeatures><filelist><file>lod2_33250-5889_geb.gml</file><file>lod2_33250-5889_geb.txt</file></filelist><polygon><ring><exterior><vertex x="251000.00001" y="5889000.0"/><vertex x="251000.00001" y="5890000.0"/><vertex x="250000.00001" y="5890000.0"/><vertex x="250000.00001" y="5889000.0"/><vertex x="251000.00001" y="5889000.0"/></exterior></ring></polygon><bbox><vertex x="250000.00001 " y="5889000.0 "/><vertex x="251000.00001 " y="5890000.0 "/></bbox><mapsheetlist><mapsheet nr="49154"><designation>
+              33250-5889
+            </designation><name>
+              dop10_33250_5889
+            </name><product>
+              LOD2
+            </product></mapsheet></mapsheetlist><csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ows="http://www.opengis.net/ows" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd" version="2.0.2">
+  <csw:SearchStatus/>
+  <csw:SearchResults numberOfRecordsMatched="1" numberOfRecordsReturned="1" nextRecord="0">
+  	<gmd:MD_Metadata xmlns:gml="http://www.opengis.net/gml/3.2" xmlns="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
+  	  	  <gmd:fileIdentifier>
+  	  	    <gco:CharacterString>2974f5d1-f13f-4e44-9b2b-03e7d861486c</gco:CharacterString>
+  	  	  </gmd:fileIdentifier>
+  	  	  <gmd:language>
+  	  	    <gmd:LanguageCode codeList="https://www.loc.gov/standards/iso639-2/" codeListValue="ger">ger</gmd:LanguageCode>
+  	  	  </gmd:language>
+  	  	  <gmd:characterSet>
+  	  	    <gmd:MD_CharacterSetCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  	  	  </gmd:characterSet>
+  	  	  <gmd:parentIdentifier>
+  	            <gco:CharacterString>0414a37a-a749-4ee6-9f59-a41226919c58</gco:CharacterString>
+  	         </gmd:parentIdentifier>
+  	         <gmd:hierarchyLevel>
+  	  	    <gmd:MD_ScopeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="tile">tile</gmd:MD_ScopeCode>
+  	  	  </gmd:hierarchyLevel>
+  	  	  <gmd:hierarchyLevelName>
+  	  	    <gco:CharacterString>dataset</gco:CharacterString>
+  	  	  </gmd:hierarchyLevelName>
+  	  	  <gmd:contact>
+  	  	    <gmd:CI_ResponsibleParty>
+  	  	      <gmd:organisationName>
+  	  	        <gco:CharacterString>Landesvermessung und Geobasisinformation Brandenburg (LGB)</gco:CharacterString>
+  	  	      </gmd:organisationName>
+  	  	      <gmd:contactInfo>
+  	  	        <gmd:CI_Contact>
+  	  	          <gmd:phone>
+  	  	            <gmd:CI_Telephone>
+  	  	              <gmd:voice>
+  	  	                <gco:CharacterString>+49-331-8844-123</gco:CharacterString>
+  	  	              </gmd:voice>
+  	  	              <gmd:facsimile>
+  	  	                <gco:CharacterString>+49-331-8844-16123</gco:CharacterString>
+  	  	              </gmd:facsimile>
+  	  	            </gmd:CI_Telephone>
+  	  	          </gmd:phone>
+  	  	          <gmd:address>
+  	  	            <gmd:CI_Address>
+  	  	              <gmd:deliveryPoint>
+  	  	                <gco:CharacterString>Heinrich-Mann-Allee 104 B</gco:CharacterString>
+  	  	              </gmd:deliveryPoint>
+  	  	              <gmd:city>
+  	  	                <gco:CharacterString>Potsdam</gco:CharacterString>
+  	  	              </gmd:city>
+  	  	              <gmd:administrativeArea>
+  	  	                <gco:CharacterString>Brandenburg</gco:CharacterString>
+  	  	              </gmd:administrativeArea>
+  	  	              <gmd:postalCode>
+  	  	                <gco:CharacterString>14473</gco:CharacterString>
+  	  	              </gmd:postalCode>
+  	  	              <gmd:electronicMailAddress>
+  	  	                <gco:CharacterString>kundenservice@geobasis-bb.de</gco:CharacterString>
+  	  	              </gmd:electronicMailAddress>
+  	  	            </gmd:CI_Address>
+  	  	          </gmd:address>
+  	  	        </gmd:CI_Contact>
+  	  	      </gmd:contactInfo>
+  	  	      <gmd:role>
+  	  	        <gmd:CI_RoleCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+  	  	      </gmd:role>
+  	  	    </gmd:CI_ResponsibleParty>
+  	  	  </gmd:contact>
+  	  	  <gmd:dateStamp>
+  	  	    <gco:DateTime>2023-10-24T08:22:34+02:00</gco:DateTime>
+  	  	  </gmd:dateStamp>
+  	  	  <gmd:metadataStandardName>
+  	  	    <gco:CharacterString>ISO 19115:2003/Cor 1:2006, 19119:2005/Amd 1:2008 (AdV-Metadatenprofil)</gco:CharacterString>
+  	  	  </gmd:metadataStandardName>
+  	  	  <gmd:metadataStandardVersion>
+  	  	    <gco:CharacterString>1.2.1</gco:CharacterString>
+  	  	  </gmd:metadataStandardVersion>
+  	  	  <gmd:referenceSystemInfo>
+  	  	    <gmd:MD_ReferenceSystem>
+  	  	      <gmd:referenceSystemIdentifier>
+  	  	        <gmd:RS_Identifier>
+  	  	          <gmd:code>
+  	  	            <gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/25833">EPSG:25833</gmx:Anchor>
+  	  	          </gmd:code>
+  	  	        </gmd:RS_Identifier>
+  	  	      </gmd:referenceSystemIdentifier>
+  	  	    </gmd:MD_ReferenceSystem>
+  	  	  </gmd:referenceSystemInfo>
+  	  	  <gmd:identificationInfo>
+  	  	    <gmd:MD_DataIdentification>
+  	  	      <gmd:citation>
+  	  	        <gmd:CI_Citation>
+  	  	          <gmd:title>
+  	  	            <gco:CharacterString>3D-Gebäude Land Brandenburg - 33250-5889</gco:CharacterString>
+  	  	          </gmd:title>
+  	  	          <gmd:alternateTitle>
+  	  	            <gco:CharacterString>3D-Gebäude_33250_5889</gco:CharacterString>
+  	  	          </gmd:alternateTitle>
+  	  	          <gmd:date>
+  	  	            <gmd:CI_Date>
+  	  	              <gmd:date>
+  	  	                <gco:DateTime>2015-09-14T11:56:47</gco:DateTime>
+  	  	              </gmd:date>
+  	  	              <gmd:dateType>
+  	  	                <gmd:CI_DateTypeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+  	  	              </gmd:dateType>
+  	  	            </gmd:CI_Date>
+  	  	          </gmd:date>
+  	  	          <gmd:date>
+  	                        <gmd:CI_Date>
+  	                           <gmd:date>
+  	                              <gco:DateTime>2023-10-24T08:22:34+02:00</gco:DateTime>
+  	                           </gmd:date>
+  	                           <gmd:dateType>
+  	                              <gmd:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+  	                           </gmd:dateType>
+  	                        </gmd:CI_Date>
+  	                     </gmd:date>
+  	                     <gmd:date>
+  	                        <gmd:CI_Date>
+  	                           <gmd:date>
+  	                              <gco:DateTime>2023-10-24T08:22:34+02:00</gco:DateTime>
+  	                           </gmd:date>
+  	                           <gmd:dateType>
+  	                              <gmd:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+  	                           </gmd:dateType>
+  	                        </gmd:CI_Date>
+  	                     </gmd:date>
+  	                     <gmd:identifier>
+  	  	            <gmd:MD_Identifier>
+  	  	              <gmd:code>
+  	  	                <gco:CharacterString>https://registry.gdi-de.org/id/de.bb.metadata/2974f5d1-f13f-4e44-9b2b-03e7d861486c</gco:CharacterString>
+  	  	              </gmd:code>
+  	  	            </gmd:MD_Identifier>
+  	  	          </gmd:identifier>
+  	  	          <gmd:presentationForm>
+  	  	            <gmd:CI_PresentationFormCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="modelDigital">modelDigital</gmd:CI_PresentationFormCode>
+  	  	          </gmd:presentationForm>
+  	  	        </gmd:CI_Citation>
+  	  	      </gmd:citation>
+  	  	      <gmd:abstract>
+  	  	        <gco:CharacterString>Der Datensatz enthält die dreidimensionalen Gebäudemodelle des Landes Brandenburg. Die Daten können in der Ausprägung Level of Detail 1 (LoD1) und Level of Detail 2 (LoD2) im Format CityGML bezogen werden, mit Einschränkungen hinsichtlich der Gebietsgröße auch als 3D-PDF. Die Auslieferung erfolgt im originären Bezugssystem ETRS89 (GRS80, UTM-Abbildung) bzw. im amtlichen Höhenbezugssystem DHHN2016. Die Grundrisse der abgegebenen Gebäude entsprechen genau den Gebäudeumringen, wie sie im Liegenschaftskataster nachgewiesen sind. Die Höhen (LoD1 und LoD2) und Dachformen (nur LoD2) stammen aus einer automatischen Stereo-Luftbild-Auswertung. In den Fällen, wo dies nicht möglich war, wurde auf LIDAR-Daten zurückgegriffen oder die Dächer wurden manuell modelliert. Die Bodenhöhe der Gebäude liegt innerhalb des jeweiligen Umrings auf dem tiefsten Punkt des DGM. Die Daten werden über automatisierte Verfahren oder durch Selbstentnahme kostenfrei bereitgestellt. Bei Nutzung der Daten sind die Lizenzbedingungen zu beachten.</gco:CharacterString>
+  	  	      </gmd:abstract>
+  	  	      <gmd:purpose>
+  	  	        <gco:CharacterString>Gebäudedatensatz zur Erstellung dreidimensionaler Stadtmodelle</gco:CharacterString>
+  	  	      </gmd:purpose>
+  	  	      <gmd:status>
+  	  	        <gmd:MD_ProgressCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+  	  	      </gmd:status>
+  	  	      <gmd:pointOfContact>
+  	  	        <gmd:CI_ResponsibleParty>
+  	  	          <gmd:organisationName>
+  	  	            <gco:CharacterString>Landesvermessung und Geobasisinformation Brandenburg (LGB)</gco:CharacterString>
+  	  	          </gmd:organisationName>
+  	  	          <gmd:contactInfo>
+  	  	            <gmd:CI_Contact>
+  	  	              <gmd:phone>
+  	  	                <gmd:CI_Telephone>
+  	  	                  <gmd:voice>
+  	  	                    <gco:CharacterString>+49-331-8844-123</gco:CharacterString>
+  	  	                  </gmd:voice>
+  	  	                  <gmd:facsimile>
+  	  	                    <gco:CharacterString>+49-331-8844-16123</gco:CharacterString>
+  	  	                  </gmd:facsimile>
+  	  	                </gmd:CI_Telephone>
+  	  	              </gmd:phone>
+  	  	              <gmd:address>
+  	  	                <gmd:CI_Address>
+  	  	                  <gmd:deliveryPoint>
+  	  	                    <gco:CharacterString>Heinrich-Mann-Allee 104 B</gco:CharacterString>
+  	  	                  </gmd:deliveryPoint>
+  	  	                  <gmd:city>
+  	  	                    <gco:CharacterString>Potsdam</gco:CharacterString>
+  	  	                  </gmd:city>
+  	  	                  <gmd:administrativeArea>
+  	  	                    <gco:CharacterString>Brandenburg</gco:CharacterString>
+  	  	                  </gmd:administrativeArea>
+  	  	                  <gmd:postalCode>
+  	  	                    <gco:CharacterString>14473</gco:CharacterString>
+  	  	                  </gmd:postalCode>
+  	  	                  <gmd:electronicMailAddress>
+  	  	                    <gco:CharacterString>kundenservice@geobasis-bb.de</gco:CharacterString>
+  	  	                  </gmd:electronicMailAddress>
+  	  	                </gmd:CI_Address>
+  	  	              </gmd:address>
+  	  	            </gmd:CI_Contact>
+  	  	          </gmd:contactInfo>
+  	  	          <gmd:role>
+  	  	            <gmd:CI_RoleCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+  	  	          </gmd:role>
+  	  	        </gmd:CI_ResponsibleParty>
+  	  	      </gmd:pointOfContact>
+  	  	      <gmd:resourceMaintenance>
+  	  	        <gmd:MD_MaintenanceInformation>
+  	  	          <gmd:maintenanceAndUpdateFrequency>
+  	  	            <gmd:MD_MaintenanceFrequencyCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+  	  	          </gmd:maintenanceAndUpdateFrequency>
+  	  	        </gmd:MD_MaintenanceInformation>
+  	  	      </gmd:resourceMaintenance>
+  	  	      <gmd:graphicOverview>
+  	  	        <gmd:MD_BrowseGraphic>
+  	  	          <gmd:fileName>
+  	  	            <gco:CharacterString>https://isk.geobasis-bb.de/md-thumbnail/kachel-lgb-3d-gebaeude-lod2.png</gco:CharacterString>
+  	  	          </gmd:fileName>
+  	  	          <gmd:fileDescription>
+  	  	            <gco:CharacterString>Beispiel einer Präsentation von 3D-Gebäuden</gco:CharacterString>
+  	  	          </gmd:fileDescription>
+  	  	          <gmd:fileType>
+  	  	            <gco:CharacterString>png</gco:CharacterString>
+  	  	          </gmd:fileType>
+  	  	        </gmd:MD_BrowseGraphic>
+  	  	      </gmd:graphicOverview>
+  	  	      <gmd:descriptiveKeywords>
+  	  	        <gmd:MD_Keywords>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>opendata</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	        </gmd:MD_Keywords>
+  	  	      </gmd:descriptiveKeywords>
+  	  	      <gmd:descriptiveKeywords>
+  	  	        <gmd:MD_Keywords>
+  	  	          
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Liegenschaften</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>LoD1</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Vektordaten</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>33250-5889</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>LoD2</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>LOD2</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>gebäude</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:type>
+  	  	            <gmd:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+  	  	          </gmd:type>
+  	  	        </gmd:MD_Keywords>
+  	  	      </gmd:descriptiveKeywords>
+  	  	      <gmd:descriptiveKeywords>
+  	  	        <gmd:MD_Keywords>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Liegenschaft</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Landnutzung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Planung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Vermessung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Stadtplanung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Gebäude</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Bauordnung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:keyword>
+  	  	            <gco:CharacterString>Bauleitplanung</gco:CharacterString>
+  	  	          </gmd:keyword>
+  	  	          <gmd:type>
+  	  	            <gmd:MD_KeywordTypeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+  	  	          </gmd:type>
+  	  	          <gmd:thesaurusName>
+  	  	            <gmd:CI_Citation>
+  	  	              <gmd:title>
+  	  	                <gco:CharacterString>BE/BB Schlagwortliste, Version 1.0</gco:CharacterString>
+  	  	              </gmd:title>
+  	  	              <gmd:date>
+  	  	                <gmd:CI_Date>
+  	  	                  <gmd:date>
+  	  	                    <gco:Date>2004-06-25</gco:Date>
+  	  	                  </gmd:date>
+  	  	                  <gmd:dateType>
+  	  	                    <gmd:CI_DateTypeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+  	  	                  </gmd:dateType>
+  	  	                </gmd:CI_Date>
+  	  	              </gmd:date>
+  	  	            </gmd:CI_Citation>
+  	  	          </gmd:thesaurusName>
+  	  	        </gmd:MD_Keywords>
+  	  	      </gmd:descriptiveKeywords>
+  	  	      <gmd:descriptiveKeywords>
+  	                  <gmd:MD_Keywords>
+  	                     <gmd:keyword>
+  	                        <gco:CharacterString>notgeomisbebb</gco:CharacterString>
+  	                     </gmd:keyword>
+  	                  </gmd:MD_Keywords>
+  	               </gmd:descriptiveKeywords>
+  	               <gmd:resourceConstraints>
+  	  	        <gmd:MD_LegalConstraints>
+  	  	          <gmd:useConstraints>
+  	  	            <gmd:MD_RestrictionCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+  	  	          </gmd:useConstraints>
+  	  	          <gmd:otherConstraints>
+  	  	            <gco:CharacterString>Die Daten können gemäß der „Datenlizenz Deutschland - Namensnennung - Version 2.0“ (https://www.govdata.de/dl-de/by-2-0) genutzt werden. Namensnennung: "GeoBasis-DE/LGB", Beispiel: „© GeoBasis-DE/LGB, dl-de/by-2-0, (Daten geändert)“, (Klammer = optional)</gco:CharacterString>
+  	  	          </gmd:otherConstraints>
+  	  	          <gmd:otherConstraints>
+  	  	            <gco:CharacterString>{"id":"dl-by-de/2.0","name":"Datenlizenz Deutschland - Namensnennung - Version 2.0","url":"https://www.govdata.de/dl-de/by-2-0","quelle":"Quelle: © GeoBasis-DE/LGB, dl-de/by-2-0"}</gco:CharacterString>
+  	  	          </gmd:otherConstraints>
+  	  	        </gmd:MD_LegalConstraints>
+  	  	      </gmd:resourceConstraints>
+  	  	      <gmd:resourceConstraints>
+  	  	        <gmd:MD_LegalConstraints>
+  	  	          <gmd:accessConstraints>
+  	  	            <gmd:MD_RestrictionCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+  	  	          </gmd:accessConstraints>
+  	  	          <gmd:otherConstraints>
+  	  	            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">Es gelten keine Zugriffsbeschränkungen</gmx:Anchor>
+  	  	          </gmd:otherConstraints>
+  	  	        </gmd:MD_LegalConstraints>
+  	  	      </gmd:resourceConstraints>
+  	  	      <gmd:spatialRepresentationType>
+  	  	        <gmd:MD_SpatialRepresentationTypeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+  	  	      </gmd:spatialRepresentationType>
+  	  	      <gmd:spatialResolution>
+  	  	        <gmd:MD_Resolution>
+  	  	          <gmd:equivalentScale>
+  	  	            <gmd:MD_RepresentativeFraction>
+  	  	              <gmd:denominator>
+  	  	                <gco:Integer>1</gco:Integer>
+  	  	              </gmd:denominator>
+  	  	            </gmd:MD_RepresentativeFraction>
+  	  	          </gmd:equivalentScale>
+  	  	        </gmd:MD_Resolution>
+  	  	      </gmd:spatialResolution>
+  	  	      <gmd:language>
+  	  	        <gmd:LanguageCode codeList="https://www.loc.gov/standards/iso639-2/" codeListValue="ger">ger</gmd:LanguageCode>
+  	  	      </gmd:language>
+  	  	      <gmd:characterSet>
+  	  	        <gmd:MD_CharacterSetCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  	  	      </gmd:characterSet>
+  	  	      <gmd:topicCategory>
+  	  	        <gmd:MD_TopicCategoryCode>structure</gmd:MD_TopicCategoryCode>
+  	  	      </gmd:topicCategory>
+  	  	      <gmd:extent>
+  	  	        <gmd:EX_Extent>
+  	  	          <gmd:geographicElement>
+  	  	            <gmd:EX_GeographicBoundingBox>
+  	  	              <gmd:extentTypeCode>
+  	  	                <gco:Boolean>true</gco:Boolean>
+  	  	              </gmd:extentTypeCode>
+  	  	              <gmd:westBoundLongitude>
+  	  	                <gco:Decimal>11.2653567613541</gco:Decimal>
+  	  	              </gmd:westBoundLongitude>
+  	  	              <gmd:eastBoundLongitude>
+  	  	                <gco:Decimal>11.281035529739</gco:Decimal>
+  	  	              </gmd:eastBoundLongitude>
+  	  	              <gmd:southBoundLatitude>
+  	  	                <gco:Decimal>53.0917987427161</gco:Decimal>
+  	  	              </gmd:southBoundLatitude>
+  	  	              <gmd:northBoundLatitude>
+  	  	                <gco:Decimal>53.1012362318613</gco:Decimal>
+  	  	              </gmd:northBoundLatitude>
+  	  	            </gmd:EX_GeographicBoundingBox>
+  	  	          </gmd:geographicElement>
+  	  	        </gmd:EX_Extent>
+  	  	      </gmd:extent>
+  	  	    <gmd:extent>
+  	                  <gmd:EX_Extent>
+  	                     <gmd:geographicElement>
+  	                        <gmd:EX_BoundingPolygon>
+  	                           <gmd:extentTypeCode>
+  	                              <gco:Boolean>true</gco:Boolean>
+  	                           </gmd:extentTypeCode>
+  	                           <gmd:polygon>
+  	                              <gml:Polygon gml:id="ID10" srsName="EPSG:4326">
+  	                                 <gml:exterior>
+  	                                    <gml:LinearRing>
+  	                                       <gml:posList srsDimension="2">53.0922658987861 11.281035529739 53.0917987427161 11.2661345299036 53.1007689243919 11.2653567613541 53.1012362318613 11.280260847589 53.0922658987861 11.281035529739</gml:posList>
+  	                                    </gml:LinearRing>
+  	                                 </gml:exterior>
+  	                              </gml:Polygon>
+  	                           </gmd:polygon>
+  	                        </gmd:EX_BoundingPolygon>
+  	                     </gmd:geographicElement>
+  	                  </gmd:EX_Extent>
+  	               </gmd:extent>
+  	            </gmd:MD_DataIdentification>
+  	  	  </gmd:identificationInfo>
+  	  	  <gmd:distributionInfo>
+  	  	    <gmd:MD_Distribution>
+  	  	      <gmd:distributionFormat>
+  	  	        <gmd:MD_Format>
+  	  	          <gmd:name>
+  	  	            <gco:CharacterString>CityGML bzw. 3D-PDF</gco:CharacterString>
+  	  	          </gmd:name>
+  	  	          <gmd:version>
+  	  	            <gco:CharacterString>1.0 bzw. 1.4</gco:CharacterString>
+  	  	          </gmd:version>
+  	  	        </gmd:MD_Format>
+  	  	      </gmd:distributionFormat>
+  	  	      <gmd:distributor>
+  	  	        <gmd:MD_Distributor>
+  	  	          <gmd:distributorContact>
+  	  	            <gmd:CI_ResponsibleParty>
+  	  	              <gmd:organisationName>
+  	  	                <gco:CharacterString>Landesvermessung und Geobasisinformation Brandenburg (LGB)</gco:CharacterString>
+  	  	              </gmd:organisationName>
+  	  	              <gmd:contactInfo>
+  	  	                <gmd:CI_Contact>
+  	  	                  <gmd:phone>
+  	  	                    <gmd:CI_Telephone>
+  	  	                      <gmd:voice>
+  	  	                        <gco:CharacterString>+49-331-8844-123</gco:CharacterString>
+  	  	                      </gmd:voice>
+  	  	                      <gmd:facsimile>
+  	  	                        <gco:CharacterString>+49-331-8844-16123</gco:CharacterString>
+  	  	                      </gmd:facsimile>
+  	  	                    </gmd:CI_Telephone>
+  	  	                  </gmd:phone>
+  	  	                  <gmd:address>
+  	  	                    <gmd:CI_Address>
+  	  	                      <gmd:deliveryPoint>
+  	  	                        <gco:CharacterString>Heinrich-Mann-Allee 104 B</gco:CharacterString>
+  	  	                      </gmd:deliveryPoint>
+  	  	                      <gmd:city>
+  	  	                        <gco:CharacterString>Potsdam</gco:CharacterString>
+  	  	                      </gmd:city>
+  	  	                      <gmd:administrativeArea>
+  	  	                        <gco:CharacterString>Brandenburg</gco:CharacterString>
+  	  	                      </gmd:administrativeArea>
+  	  	                      <gmd:postalCode>
+  	  	                        <gco:CharacterString>14473</gco:CharacterString>
+  	  	                      </gmd:postalCode>
+  	  	                      <gmd:electronicMailAddress>
+  	  	                        <gco:CharacterString>kundenservice@geobasis-bb.de</gco:CharacterString>
+  	  	                      </gmd:electronicMailAddress>
+  	  	                    </gmd:CI_Address>
+  	  	                  </gmd:address>
+  	  	                </gmd:CI_Contact>
+  	  	              </gmd:contactInfo>
+  	  	              <gmd:role>
+  	  	                <gmd:CI_RoleCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+  	  	              </gmd:role>
+  	  	            </gmd:CI_ResponsibleParty>
+  	  	          </gmd:distributorContact>
+  	  	          <gmd:distributionOrderProcess>
+  	  	            <gmd:MD_StandardOrderProcess>
+  	  	              <gmd:fees>
+  	  	                <gco:CharacterString>kostenfrei, unter Beachtung der Lizenzbedingungen</gco:CharacterString>
+  	  	              </gmd:fees>
+  	  	              <gmd:orderingInstructions>
+  	  	                <gco:CharacterString>Download über Geobroker (https://geobroker.geobasis-bb.de) möglich</gco:CharacterString>
+  	  	              </gmd:orderingInstructions>
+  	  	              <gmd:turnaround>
+  	  	                <gco:CharacterString>Download nach Online-Aufbereitung</gco:CharacterString>
+  	  	              </gmd:turnaround>
+  	  	            </gmd:MD_StandardOrderProcess>
+  	  	          </gmd:distributionOrderProcess>
+  	  	        </gmd:MD_Distributor>
+  	  	      </gmd:distributor>
+  	  	      <gmd:transferOptions>
+  	  	        <gmd:MD_DigitalTransferOptions>
+  	  	          <gmd:onLine>
+  	  	            <gmd:CI_OnlineResource>
+  	  	              <gmd:linkage>
+  	  	                <gmd:URL>https://geobroker.geobasis-bb.de/gbss.php?MODE=GetProductInformation&amp;PRODUCTID=0414a37a-a749-4ee6-9f59-a41226919c58</gmd:URL>
+  	  	              </gmd:linkage>
+  	  	              <gmd:description>
+  	  	                <gco:CharacterString>Internetshop der LGB</gco:CharacterString>
+  	  	              </gmd:description>
+  	  	              <gmd:function>
+  	  	                <gmd:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="order">order</gmd:CI_OnLineFunctionCode>
+  	  	              </gmd:function>
+  	  	            </gmd:CI_OnlineResource>
+  	  	          </gmd:onLine>
+  	  	          
+  	  	          <gmd:onLine>
+  	  	            <gmd:CI_OnlineResource>
+  	  	              <gmd:linkage>
+  	  	                <gmd:URL>https://geobasis-bb.de/lgb/de/geodaten/3d-produkte/3d-gebaeudemodelle/</gmd:URL>
+  	  	              </gmd:linkage>
+  	  	              <gmd:description>
+  	  	                <gco:CharacterString>statische Informationsseite</gco:CharacterString>
+  	  	              </gmd:description>
+  	  	              <gmd:function>
+  	  	                <gmd:CI_OnLineFunctionCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+  	  	              </gmd:function>
+  	  	            </gmd:CI_OnlineResource>
+  	  	          </gmd:onLine>
+  	  	        <gmd:onLine>
+  	                        <gmd:CI_OnlineResource>
+  	                           <gmd:linkage>
+  	                              <gmd:URL>https://data.geobasis-bb.de/geobasis/daten/3d_gebaeude/lod1_gml/lod1_33250-5889.zip</gmd:URL>
+  	                           </gmd:linkage>
+  	                           <gmd:description>
+  	                              <gco:CharacterString>Datendownload LoD1 (Format=gml)</gco:CharacterString>
+  	                           </gmd:description>
+  	                           <gmd:function>
+  	                              <gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+  	                           </gmd:function>
+  	                        </gmd:CI_OnlineResource>
+  	                     </gmd:onLine>
+  	                     <gmd:onLine>
+  	                        <gmd:CI_OnlineResource>
+  	                           <gmd:linkage>
+  	                              <gmd:URL>https://data.geobasis-bb.de/geobasis/daten/3d_gebaeude/lod2_gml/lod2_33250-5889.zip</gmd:URL>
+  	                           </gmd:linkage>
+  	                           <gmd:description>
+  	                              <gco:CharacterString>Datendownload LoD2 (Format=gml)</gco:CharacterString>
+  	                           </gmd:description>
+  	                           <gmd:function>
+  	                              <gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+  	                           </gmd:function>
+  	                        </gmd:CI_OnlineResource>
+  	                     </gmd:onLine>
+  	                  </gmd:MD_DigitalTransferOptions>
+  	  	      </gmd:transferOptions>
+  	  	    </gmd:MD_Distribution>
+  	  	  </gmd:distributionInfo>
+  	  	  <gmd:dataQualityInfo>
+  	  	    <gmd:DQ_DataQuality>
+  	  	      <gmd:scope>
+  	  	        <gmd:DQ_Scope>
+  	  	          <gmd:level>
+  	  	            <gmd:MD_ScopeCode codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="tile">tile</gmd:MD_ScopeCode>
+  	  	          </gmd:level>
+  	  	        <gmd:levelDescription>
+  	                        <gmd:MD_ScopeDescription>
+  	                           <gmd:other>
+  	                              <gco:CharacterString>Pflichtangabe gemäß ISO, wenn LEVEL ungleich dataset/series</gco:CharacterString>
+  	                           </gmd:other>
+  	                        </gmd:MD_ScopeDescription>
+  	                     </gmd:levelDescription>
+  	                  </gmd:DQ_Scope>
+  	  	      </gmd:scope>
+  	  	      
+  	  	      <gmd:lineage>
+  	  	        <gmd:LI_Lineage>
+  	  	          <gmd:statement>
+  	  	            <gco:CharacterString>Die Umringe der Gebäude wurden aus ALKIS entnommen. Die Gebäudehöhen und Dachformen wurden aus aktuellen Stereo-Luftbildern, Laserscan-Befliegungsdaten und ATKIS-Datensätzen gewonnen. Die Bodenhöhe wurde aus dem DGM interpoliert.</gco:CharacterString>
+  	  	          </gmd:statement>
+  	  	          <gmd:source>
+  	  	            <gmd:LI_Source>
+  	  	              <gmd:description>
+  	  	                <gco:CharacterString>ALKIS, Luftbilder, DGM, Laserscan-Rohdaten</gco:CharacterString>
+  	  	              </gmd:description>
+  	  	            </gmd:LI_Source>
+  	  	          </gmd:source>
+  	  	        </gmd:LI_Lineage>
+  	  	      </gmd:lineage>
+  	  	    </gmd:DQ_DataQuality>
+  	  	  </gmd:dataQualityInfo>
+  	  	</gmd:MD_Metadata>
+  </csw:SearchResults>
+</csw:GetRecordsResponse></extent></einheiten></metadata>
