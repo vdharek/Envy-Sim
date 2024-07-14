@@ -3,6 +3,7 @@ package org.example;
 import org.citygml4j.CityGMLContext;
 import org.citygml4j.builder.jaxb.CityGMLBuilder;
 import org.citygml4j.model.citygml.CityGML;
+import org.citygml4j.model.citygml.appearance.*;
 import org.citygml4j.model.citygml.core.CityModel;
 import org.citygml4j.model.citygml.transportation.TrafficArea;
 import org.citygml4j.model.gml.geometry.aggregates.MultiSurface;
@@ -14,14 +15,17 @@ import org.citygml4j.xml.io.reader.CityGMLReader;
 
 import java.io.File;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class GMLParser {
+
+    private static final Logger log = Logger.getLogger(GMLParser.class.getName());
     public static void main(String[] args) {
         try {
             CityGMLContext context = CityGMLContext.getInstance();
             CityGMLBuilder builder = context.createCityGMLBuilder();
 
-            processGMLFile(builder, "./gml-files/PockelStrasse.gml");
+            processGMLFile(builder, "./gml-files/Frankfurt_Street_Setting_LOD3.gml");
         } catch (Exception e) {
             e.printStackTrace();
         }

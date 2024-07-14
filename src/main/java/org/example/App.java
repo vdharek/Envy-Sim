@@ -14,7 +14,7 @@ public class App {
 
     public static void main(String[] args) throws IOException, SchemaHandlerException, SAXException {
 
-        Path file = Paths.get("./gml-files/PockelStrasse.gml");
+        Path file = Paths.get("./gml-files/Frankfurt_Street_Setting_LOD3.gml");
 
         GMLValidator gmlValidator = new GMLValidator();
 

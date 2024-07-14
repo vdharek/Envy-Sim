@@ -3,6 +3,7 @@ package org.example;
 import org.citygml4j.CityGMLContext;
 import org.citygml4j.builder.jaxb.CityGMLBuilder;
 import org.citygml4j.model.citygml.CityGMLClass;
+import org.citygml4j.model.citygml.core.AbstractCityObject;
 import org.citygml4j.model.citygml.core.CityModel;
 import org.citygml4j.model.citygml.transportation.Road;
 import org.citygml4j.xml.io.CityGMLInputFactory;
@@ -38,6 +39,7 @@ public class GMLRoads {
                         // Check if the CityObject is a Road
                         if (cityObjectMember.isSetCityObject() && cityObjectMember.getCityObject().getCityGMLClass() == CityGMLClass.ROAD) {
                             Road road = (Road) cityObjectMember.getCityObject();
+                            AbstractCityObject feature = cityObjectMember.getFeature();
                             roadCount++;
                             // Optionally, you can print Road ID or other attributes
                             System.out.println("Found Road with ID: " + road.getId());
